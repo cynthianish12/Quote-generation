@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }*
+body{
+     display: flex;
+    justify-content: center;
+     background-image: url(gallery-img-05.jpg  ); 
+     text-align: center;
+     height: 100vh;
+     align-items: center;
+     flex-direction: column;
+     
+}
+.header{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+
+}
+.textarea{
+background-color: white;
+width: 450px;
+height: 300px;
+border-radius: 15px;
+padding: 100px 50px ;
+font-size: large;
+}
+.person{
+    padding: 30px;
+    font-size: large;
+    color: red;
+}
+
+#new-quote{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+</style>
+<body>
+   <div class="header"> 
+   <h2> Java script Quate Generator</h2>
+   </div>
+<div class="textarea">
+   <span class="quote">
+    "I do the very best I know how The very best I can ; and I mean to keep on doing so untill the end "
+   </span>
+   <div class="person">
+    Abraham Licoln
+   </div>
+   <div class="buttom-area">
+    
+    <button id="new-quote" type="submit" >New Quote</button>
+   </div>
+</div>
+</body>
+<script src="quote.js"></script>
+</html>
